@@ -10,5 +10,10 @@
   "description": "",
   "dependencies": {
     "sharp": "^0.33.0"
+  },
+  "private": true,
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
