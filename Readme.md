@@ -11,14 +11,14 @@ Make sure to have Heroku configured with those buildpacks:
 ## Deployment
 
 ```
+git clone https://github.com/opencollective/sharp-libvips-buildpack
+cd sharp-libvips-buildpack
 git remote add heroku https://git.heroku.com/sharp-libvips-buildpack.git
 git push heroku
 ```
 
 ## Notes
 
-At this moment, the latest version of `sharp` requires `"libvips": ">=8.15.0"`.
+At this moment, the latest version of `sharp` (0.33.0) requires `"libvips": ">=8.15.0"`.
 
-The current `heroku-buildpack-vips` only has `8.14.5`, use the opencollective fork to reproduce properly:
-
-- https://github.com/opencollective/heroku-buildpack-vips
+The current `heroku-buildpack-vips` only has `8.14.5`.
