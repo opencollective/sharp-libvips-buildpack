@@ -1,6 +1,6 @@
 {
   "name": "sharp-libvips-buildpack",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "sharp": "^0.33.0"
+    "sharp": "0.32.6"
   },
-  "private": true,
-  "engines": {
-    "node": "18.x",
-    "npm": "9.x"
-  }
+  "private": true
 }
